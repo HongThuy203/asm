@@ -7,7 +7,7 @@ export default defineConfig({
     // ...vite configures
     server: {
         // vite server configs, for details see [vite doc](https://vitejs.dev/config/#server-host)
-        port: +(process.env.PORT ?? 3001),
+        port: +(process.env.PORT ?? 3000),
         cors: true,
         // port: process.env.PORT
     },
